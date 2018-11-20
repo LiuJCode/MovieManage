@@ -51,7 +51,7 @@ public class FileService extends BaseService {
                 if (!Strings.isNullOrEmpty(domain_name)) {
                     finalDomainName = domain_name;
                 }
-                finalDomainName = "http://static.nbkls888.xyz/";
+                finalDomainName = "http://static.kgiikk.cn/";
                 String shortUrl = UrlFactory.sinaShortUrl(finalDomainName + path);
                 File file = FileFactory.saveFile(fileName, path, shortUrl);
 

@@ -1,6 +1,7 @@
 package com.wx.movie.manage.service;
 
 import com.wx.movie.manage.Common;
+import com.wx.movie.manage.bean.Account;
 import com.wx.movie.manage.bean.api.account.AccountRspModel;
 import com.wx.movie.manage.bean.api.account.LoginModel;
 import com.wx.movie.manage.bean.api.base.ResponseModel;
@@ -44,4 +45,5 @@ public class AccountService extends BaseService {
         }
         return ResponseModel.buildLoginError();
     }
+
 }

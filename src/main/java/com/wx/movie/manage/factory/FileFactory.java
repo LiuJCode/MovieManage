@@ -68,7 +68,7 @@ public class FileFactory {
     }
 
     private static boolean deleteFile(String path) {
-        File file = new File(path);
+        File file = new File("~/static/"+path);
         if (file.exists()) {
             return file.delete();
         } else {
