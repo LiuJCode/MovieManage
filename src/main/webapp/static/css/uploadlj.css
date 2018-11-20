@@ -1,0 +1,18 @@
+#opst_txt {
+    color: #fff;
+    font: 400 16px "microsoft yahei";
+    margin-bottom: 0;
+}
+.send_btn {
+    color: #fff;
+    font: 400 16px "microsoft yahei";
+    float: left;
+    left: 120px;
+    top: 0;
+
+}
+.wrapper-content-child {
+    position: relative;
+}
+
+/* display: none; */

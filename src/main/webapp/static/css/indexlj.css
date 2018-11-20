@@ -1,0 +1,15 @@
+ /* lj新增 */
+ .nav-header {
+    color: #fff;
+    font: 400 18px "microsoft yahei";
+    border-bottom: #19aa8d 1px solid;
+}
+
+.dropdown-messages-box,
+.welcome-message {
+    color: #333;
+    font: 400 16px "microsoft yahei";
+}
+.welcome-message {
+    margin-right: -0px;
+}
